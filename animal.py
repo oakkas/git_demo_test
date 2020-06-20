@@ -1,13 +1,17 @@
 import sys
 
+
 def default():
-    print("Hello")
+    print("hello")
+
 
 def cat():
     print("Miav")
 
+
 def dog():
     print("Hav")
+
 
 def main():
     if sys.argv[1] == "dog":
@@ -16,6 +20,7 @@ def main():
         cat()
     else:
         default()
+
 
 if __name__ == "__main__":
     main()
